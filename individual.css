@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url(../student2/ExternalCSS.css);
+
+* {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+scroll-padding-top: 32px;
+scroll-behavior: smooth;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;	
+}
+
+
+
+html{
+    font-size: 62.5%;
+}
+
+
+.item{
+    
+    padding: 0.5rem;
+    
+    
+}
+.contener{
+    display: grid;
+    grid-auto-rows: minmax(200px,auto);
+    font-family: "Poppins",sans-serif;
+
+    grid-template-areas: "a a a"
+    "a a a" "b b b" "b b b" "c c c" "d d d" ;
+}
+.item-1{
+    grid-area: a;
+    margin: 0;
+    background-image: url(im2/image2.jpg);
+    background-repeat: no-repeat;
+    
+   
+
+}
+.item-2{
+    grid-area: b;
+}
+.item-3{
+    grid-area: c;
+    width: 1000px;
+    height: 500px;
+}
+.item-4{
+    grid-area: d;
+    
+}
+
+img{
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+    height: 350px;
+   
+}
+#article{
+  font-size: 20px;
+}
+.milkr{
+    display: flex;
+    margin: 30px;
+    font-size: 24px;
+ 
+}
+/*    articles  */
+#mpk,#mpi,#mpc{
+    width: 300px;
+    height: 250px;
+    margin: 18px;
+    border-radius: 18px;
+}
+.stringh{
+    display: flex;
+    margin: 30px;
+    
+}
+#myy,#syy,#cyy{
+    font-size: 24px;
+}
+.crab{
+    display: flex;
+    margin: 30px;
+}
+#but{
+    background-color: lightskyblue;
+    font-size: 14px;
+    border: 1px solid black;
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+    color:white;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 100%;
+}
+a{
+    color: beige;
+    text-transform: uppercase;
+}
+.sub{
+    display: flex;
+    color: white;
+    padding: 50%;
+ 
+}
+
+
+body{
+    background-color: antiquewhite;
+}
+.ancher{
+  display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 0.5rem;
+  
+   
+}
+
+    .btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+        background-color: #3e8e41;
+    }
+    /*  video  */
+.vid{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.contener{
+    font-size: 10px;
+}
+h2{
+    font-weight: bold;
+}
+  
+
+
+
+  
